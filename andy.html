@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <img src="am.png" class="logo" />
+      <div class="navbar"></div>
+
+      <h2 class="logo"></h2>
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li class="dropdown">
+            <a href="#">SERVICE</a>
+            <ul>
+              <li><a href="#">Card</a></li>
+              <li><a href="#">Logo</a></li>
+              <li><a href="#">Obituary</a></li>
+              <li><a href="#">Flyer</a></li>
+            </ul>
+          </li>
+          <li><a href="#">DESIGN</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input class="srch" name="" placeholder="Type To Text" />
+        <a href="#"><button class="btn">search</button></a>
+      </div>
+      <div class="wrapper">
+        <form action="">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required />
+            <box-icon name="user-circle"></box-icon>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Password" required />
+            <box-icon name="user-circle"></box-icon>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox" />Remember me</label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="register-link">
+            <p>Don't have an account?</p>
+            <a href="#">Register</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
